@@ -1,0 +1,44 @@
+{
+  "Bug_id":"1",
+  "Priority":"Minor",
+  "Summary":"[Blog] Fix pagination",
+  "Steps to reproduce":
+  {
+    "1":"Go to Blog https://________",
+    "2":Scroll down 
+  },
+  "Expected result":"User sees a pagination and may clict to them,
+  "Actual result":"Tha pagination invisible"
+}
+
+
+{
+  "Bug_id":"2",
+  "Priority":"Minor",
+  "Summary":"Scroller looks broken",
+  "Steps to reproduce":
+  {
+    "1":"Open Home page;
+    "2":"Click on “CLICK HERE FOR SEASONAL SERVICE TIMES”
+  },
+  "Expected result":"Not sure about the correct behavior but on Windows, there was an option to scroll by dragging the bottom scroller"
+  "Actual result":"No bottom scroller"
+}
+
+
+{
+  "Bug_id":"3",
+  "Priority":"Blocker",
+  "Summary":"Orders do not pass",
+  "Steps to reproduce":
+  {
+    "1":"Open Home page;
+    "2":"Choose a product - TEST”
+    "3": "Click Add to cart";
+    "4":Go to the Checkout Step
+    "5": Fill the field
+    "6" Click Place Order Button
+  },
+  "Expected result":"Order is placed"
+  "Actual result":"Orders do not pass, user sees an error _____"
+}
