@@ -1,0 +1,26 @@
+{
+  "TestCase_id":"1",
+  "Title":"Total price should reflect the product quantity",
+  "Steps":
+  {
+    "1":"Go to any Category",
+    "2":"Add any item to the Cart",
+    "3":"Go to the Cart",
+    "4":"Change quantity of the product",
+    "5":"Go to the Payment page"
+  },
+  "Expected result":"Total price should reflect to the quantity of the product"
+}
+
+
+{
+"TestCase_id":"2",
+  "Title":"Page RETURNS is redirected to the original page",
+  "Steps":
+  {
+    "1":"Go to the return Page https://_______
+    "2":"Fill the fields email- test@test.com",
+    "3":"Fill the order number field 123456
+    "4": Click Enter"
+  },
+  "Expected result":"User is stays in the return page "
